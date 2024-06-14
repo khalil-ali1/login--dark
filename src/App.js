@@ -4,25 +4,24 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="flex justify-center text-4xl transition-all transition-0.5 ">
-    <div className="flex flex-col items-center w-[80%]  rounded-3xl shadow-2xl border">
-      <div className="text-center">
+    <div className="flex justify-center text-4xl transition-all transition-0.5 mt-10">
+      <div className="text-center ">
         <h1 className="my-6 font-extrabold ">LOGIN</h1>
-        <div className="">
+        <div className="border rounded-3xl shadow-2xl ">
           <div className="space-x-4 ">
             <i className="fab fa-google"></i>
             <i className="fab fa-facebook-square"></i>
             <i className="fab fa-linkedin"></i>
             <i className="fab fa-twitter-square"></i>
             <i className="fab fa-apple"></i>
-            <div className="border-red-500">
-              <p className="border-b-2 mb-10">
-                <span className="bg-slate-50">or</span>
+            <div >
+              <p className="border-b-2 leading-4 my-10 ">
+                <span className="px-10 bg-white">or</span>
               </p>
-              <form className="border ">
+              <form className="my-4 w-[100%] flex flex-col ">
                 <label className="pl-5">E-mail</label>
                 <input type="email" placeholder="Enter your email" />
-                <br />
+                
                 <label>password</label>
                 <input type="password" placeholder="Enter your password" />
                 <div className="remember">
@@ -44,7 +43,6 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }
