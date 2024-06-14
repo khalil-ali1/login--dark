@@ -4,19 +4,19 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="flex justify-center text-4xl transition-all transition-0.5 mt-10">
-      <div className="text-center ">
+    <div className="flex justify-center text-xl transition-all transition-0.5 mt-4">
+      <div className="text-center w-[50%] ">
         <h1 className="my-6 font-extrabold ">LOGIN</h1>
-        <div className="border rounded-3xl shadow-2xl ">
-          <div className="space-x-4 ">
+        <div >
+          <div className="space-x-4 mt-6">
             <i className="fab fa-google"></i>
             <i className="fab fa-facebook-square"></i>
             <i className="fab fa-linkedin"></i>
             <i className="fab fa-twitter-square"></i>
             <i className="fab fa-apple"></i>
-            <div >
-              <p className="border-b-2 leading-4 my-10 ">
-                <span className="px-10 bg-white">or</span>
+            <div className="border rounded-3xl shadow-2xl m-5">
+              <p className="border-b-2 border-gray-400 leading-4 my-10 ">
+                <span className="px-6 bg-white">or</span>
               </p>
               <form className="my-4 w-[100%] flex flex-col ">
                 <label className="pl-5">E-mail</label>
