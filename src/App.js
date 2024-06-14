@@ -22,9 +22,14 @@ function App() {
                 <label>password</label>
                 <input type="password" placeholder="Enter your password"/>
                 <div className="remember">
-                  <input type="checkbox" checked='checked' />
+                <input type="checkbox" checked='checked' />
+                <p>Remember Me</p>
                 </div>
+                <button>Log In</button>
               </form>
+              <div className="bottom">
+                <p>Forget your password?</p>
+              </div>
             </div>
           </div>
         </div>
