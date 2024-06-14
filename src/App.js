@@ -4,8 +4,8 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="flex justify-center bg-zinc-500 ">
-    <div className="w-[80%] bg-slate-600 rounded-3xl">
+    <div className="flex justify-center text-4xl transition-all transition-0.5 ">
+    <div className="flex flex-col items-center w-[80%]  rounded-3xl shadow-2xl border">
       <div className="text-center">
         <h1 className="my-6 font-extrabold ">LOGIN</h1>
         <div className="">
@@ -15,9 +15,9 @@ function App() {
             <i className="fab fa-linkedin"></i>
             <i className="fab fa-twitter-square"></i>
             <i className="fab fa-apple"></i>
-            <div>
+            <div className="border-red-500">
               <p className="border-b-2 mb-10">
-                <span className="border bg-slate-50">or</span>
+                <span className="bg-slate-50">or</span>
               </p>
               <form className="border ">
                 <label className="pl-5">E-mail</label>
@@ -37,9 +37,9 @@ function App() {
               </div>
               <p className="create">Create Account</p>
             </div>
-            <div className="theme-toggle">
-              <h2>light theme</h2>
-              <i className="fas fa-toggle-on"></i>
+            <div className="theme-toggle ">
+              <h2 className="text-center p-2">light theme</h2>
+              <i className="fas fa-toggle-on cursor-pointer "></i>
             </div>
           </div>
         </div>
