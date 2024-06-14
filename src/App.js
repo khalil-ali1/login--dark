@@ -9,7 +9,18 @@ function App() {
         <h1>login</h1>
         <div className="container">
           <div className="top">
-
+            <i className="fab fa-google"></i>
+            <i className="fab fa-facebook-square"></i>
+            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-twitter-square"></i>
+            <i className="fab fa-apple"></i>
+            <div>
+              <p className="divider"><span>or</span></p>
+              <form>
+                <label>E-mail</label>
+                <input type="email" placeholder="Enter your email"/>
+              </form>
+            </div>
           </div>
         </div>
       </div>
