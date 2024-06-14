@@ -19,6 +19,11 @@ function App() {
               <form>
                 <label>E-mail</label>
                 <input type="email" placeholder="Enter your email"/>
+                <label>password</label>
+                <input type="password" placeholder="Enter your password"/>
+                <div className="remember">
+                  <input type="checkbox" checked='checked' />
+                </div>
               </form>
             </div>
           </div>
