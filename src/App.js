@@ -5,10 +5,10 @@ import "./index.css";
 function App() {
   return (
     <div className="app flex justify-center text-xl  text-center transition-all transition-0.5 mt-4 ">
-      <div className="login  w-[25%]">
+      <div className="login w-[25%]">
         <h1 className="mt-20 mb-10 font-extrabold text-center">LOGIN</h1>
         <div className="container border rounded-3xl shadow-2xl m-5 ">
-          <div className="top flex px-20 justify-between my-8">
+          <div className="top flex px-[20%] justify-between my-8">
             <i className="fab fa-google"></i>
             <i className="fab fa-facebook-square"></i>
             <i className="fab fa-linkedin"></i>
