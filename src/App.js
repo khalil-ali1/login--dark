@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
   return (
     <div className="app flex justify-center text-xl  text-center transition-all transition-0.5 mt-4 ">
-      <div className="login w-[25%]">
+      <div className="login w-[50%] xl:w-[25%] ">
         <h1 className="mt-20 mb-10 font-extrabold text-center">LOGIN</h1>
         <div className="contain flex flex-col justify-center border rounded-3xl shadow-2xl m-5 ">
           <div className="top flex px-[20%] justify-between my-8">
@@ -27,11 +27,11 @@ function App() {
             </div>
             <button className="border rounded-full bg-purple-400 mx-[25%]">Log In</button>
           </form>
-          <div className="bottom">
-            <p>Forget your password?</p>
-            <a href="/">Reset Password</a>
+          <div className="bottom ">
+            <p className="my-3">Forget your password?</p>
+            <a href="/" className="underline text-purple-400">Reset Password</a>
           </div>
-          <p className="create">Create Account</p>
+          <p className="create my-3">Create Account</p>
 
           <div className="theme-toggle ">
             <h2 className="text-center p-2">light theme</h2>
