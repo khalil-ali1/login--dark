@@ -8,7 +8,7 @@ function App() {
       <div className="login w-[50%] ">
         <h1 className="my-6 font-extrabold text-center">LOGIN</h1>
         <div className="container border rounded-3xl shadow-2xl m-5">
-          <div className="top flex px-20 justify-between mt-6 border-b-2 border-gray-400 leading-4 my-10">
+          <div className="top flex px-20 justify-between my-8">
             <i className="fab fa-google"></i>
             <i className="fab fa-facebook-square"></i>
             <i className="fab fa-linkedin"></i>
