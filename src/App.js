@@ -4,10 +4,10 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="app flex justify-center text-xl transition-all transition-0.5 mt-4 ">
-      <div className="login w-[50%] ">
-        <h1 className="my-6 font-extrabold text-center">LOGIN</h1>
-        <div className="container border rounded-3xl shadow-2xl m-5">
+    <div className="app flex justify-center text-xl  text-center transition-all transition-0.5 mt-4 ">
+      <div className="login  w-[25%]">
+        <h1 className="mt-20 mb-10 font-extrabold text-center">LOGIN</h1>
+        <div className="container border rounded-3xl shadow-2xl m-5 ">
           <div className="top flex px-20 justify-between my-8">
             <i className="fab fa-google"></i>
             <i className="fab fa-facebook-square"></i>
@@ -18,9 +18,9 @@ function App() {
           <p className="divider"><span>or</span></p>
           <form className="my-4 flex flex-col border">
             <label className="">E-mail</label>
-            <input type="email" placeholder="Enter your email" className="border pl-[20%] w-[50%]" />
+            <input type="email" placeholder="Enter your email" className="" />
             <label>password</label>
-            <input type="password" placeholder="Enter your password" className="pl-[20%] w-[50%]" />
+            <input type="password" placeholder="Enter your password" className="" />
             <div className="remember flex justify-center space-x-2">
               <input type="checkbox" checked="checked" />
               <p>Remember Me</p>
